@@ -1,5 +1,5 @@
 baseURL: "" 
-title: Helios
+title: Helius
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -70,7 +70,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Helios"
+      text: "Helius"
       iconHeight: 100
 
 markup:

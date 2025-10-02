@@ -1,0 +1,86 @@
+baseURL: "" 
+title: Helios
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 10
+
+menu:
+    main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Resources
+          url: resources/
+          weight: 3
+        
+
+
+params:
+    author: Akrit Behera
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["papers","resources"]
+    ShowToc: false
+    disableScrollToTop: false
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Akrit Behera
+          subtitle: "I'm a high school student driven by immense curiosity for science and technology. I'm working towards my passion by exploring cutting edge innovation and grinding the boundaries of what's possible. My goal isn't just to learn but also to create. Whether it's through experimenting with new ideas or collaborating with others who share my vision, I'm committed to making a tangible impact on the world.The next groundbreaking discovery could come from anywhere even a high school classroom"
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Resources
+              url: resources/
+
+
+    socialIcons:
+        - name: CV
+          url: ""
+        - name: Email
+          url: mailto:akritbehera27@gmail.com
+        - name: GitHub
+          url: https://github.com/akritbehera27
+        - name: Google Scholar
+          url: ""
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Helios"
+      iconHeight: 100
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

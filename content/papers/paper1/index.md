@@ -12,7 +12,7 @@ summary: "his analysis aims to analyze the colors used in different types of pro
 ##### Download
 
 + [Full Paper](Color-Palette-Analysis.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
++ [Code and data](https://drive.google.com/file/d/1kZpv_F9JBX1hDCJdxbIm3soIhE4IxOKG/view?usp=drive_link)
 
 ---
 
